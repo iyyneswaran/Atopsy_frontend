@@ -1,0 +1,12 @@
+{
+  "caseId": "c2c8e753-ea3c-493c-a54d-5057cc888d5c",
+  "account": "atopsy.ui.2542db2a-7507-424d-9eb8-d0cdb64bda5e@example.test",
+  "status": "passed",
+  "viewportWidths": [
+    1024,
+    1440,
+    1920
+  ],
+  "browserErrors": [],
+  "testedAt": "2026-11-07T11:24:38.772Z"
+}

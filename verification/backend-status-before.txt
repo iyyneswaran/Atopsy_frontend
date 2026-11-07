@@ -1,0 +1,53 @@
+ M ai/app/core/config.py
+ M ai/app/main.py
+ M ai/app/models/__init__.py
+ M ai/app/models/audit_log.py
+ M ai/app/models/case.py
+ M ai/app/models/evidence.py
+ M ai/app/models/user.py
+ M ai/app/pipeline/anomaly_detection/contradiction_rules.py
+ M ai/app/pipeline/correlation/contradiction_detector.py
+ M ai/app/pipeline/correlation/entity_matcher.py
+ M ai/app/pipeline/correlation/relationship_builder.py
+ M ai/app/pipeline/extraction/engine.py
+ M ai/app/pipeline/extraction/nlp/regex_extractor.py
+ M ai/app/pipeline/ingestion/engine.py
+ M ai/app/pipeline/ingestion/ocr/pipeline.py
+ M ai/app/pipeline/ingestion/ocr/schemas.py
+ M ai/app/pipeline/ingestion/ocr/tesseract_engine.py
+ M ai/app/pipeline/normalization/engine.py
+ M ai/app/pipeline/normalization/stages/toxicology_normalizer.py
+ M ai/app/pipeline/structuring/engine.py
+ M ai/app/pipeline/structuring/entity_mapper.py
+ M ai/app/pipeline/structuring/value_normalizer.py
+ M ai/app/pipeline/temporal/temporal_parser.py
+ M ai/app/pipeline/temporal/timeline_builder.py
+ M ai/app/pipeline/tod_estimation/tod_parser.py
+ M server/prisma/schema.prisma
+ M server/src/middlewares/authenticate.ts
+ M server/src/modules/evidence/evidence.controller.ts
+ M server/src/modules/evidence/evidence.routes.ts
+ M server/src/modules/investigations/investigations.controller.ts
+ M server/src/modules/investigations/investigations.routes.ts
+ M server/src/routes/v1.ts
+?? IMPLEMENTATION_AUDIT.md
+?? LOCAL_RUNBOOK.md
+?? ai/app/api/dependencies/case_access.py
+?? ai/app/api/v1/endpoints/intelligence.py
+?? ai/app/models/intelligence.py
+?? ai/app/services/case_intelligence.py
+?? ai/app/services/case_pipeline_orchestrator.py
+?? ai/app/services/document_reader.py
+?? ai/app/services/intelligence_audit.py
+?? ai/app/services/investigation_report.py
+?? ai/app/workers/case_pipeline_worker.py
+?? ai/scripts/
+?? ai/tests/fixtures/
+?? ai/tests/test_engine_contracts.py
+?? ai/tests/test_integrated_workflow.py
+?? ai/tests/validation_metrics.json
+?? scripts/
+?? server/prisma/migrations/202611030001_uuid_application/
+?? server/prisma/migrations/202611030002_case_pipeline/
+?? server/src/modules/intelligence/
+?? server/src/modules/investigations/caseAccess.ts

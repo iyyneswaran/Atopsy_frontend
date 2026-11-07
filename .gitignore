@@ -1,0 +1,12 @@
+node_modules/
+.next/
+.env.local
+.env
+.env.*.local
+test-results/
+playwright-report/
+*.tsbuildinfo
+verification/backend-baseline.json
+verification/*runtime*.log
+verification/test-account.json
+.env
